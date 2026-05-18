@@ -1,0 +1,35 @@
+# --- Ma'lumotlar bazasi (Siz so'ragan fayl) ---
+test.db
+*.db
+*.sqlite3
+
+# --- Muhit va Maxfiy fayllar (Environment variables) ---
+.env
+.env.local
+.env.*.local
+
+# --- Python uchun keraksiz fayllar ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# --- Node.js (Agar ishlatayotgan bo'lsangiz) ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Tizim fayllari (OS generated) ---
+.DS_Store
+Thumbs.db
+
+# --- IDE va Redaktorlar sozlamalari ---
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
